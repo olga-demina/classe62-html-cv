@@ -1,3 +1,16 @@
-body {
-    background-color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ededed;
+    text-align: center;
+    border-bottom: 2px solid #cf8b05;
+}
+
+header h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
