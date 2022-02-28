@@ -1,16 +1,42 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* COMMON */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER */
 header {
     background-color: #ededed;
     text-align: center;
     border-bottom: 2px solid #cf8b05;
 }
 
+/* h1 all'interno di header */
 header h1 {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+/* MAIN */
+main h2 {
+    color: #cf8b05;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* ITEM */
+.item {
+    margin-top: 15px;
+}
+
+.item h3 {
+    font-style: italic;
+    margin-bottom: 15px;
+} 
